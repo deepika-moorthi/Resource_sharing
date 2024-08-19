@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+div {
+  margin-bottom: 20px;
+}
+header {
+  color: #32284d;
+  padding: 1em;
+  display: flex;
+  flex-grow: 1;
+  background-color: rgb(192, 229, 252);
+}
+#options {
+  max-width: 400px;
+}
+
+fieldset {
+  width: 80%;
+}
+
+input {
+  display: block;
+  height: 50px;
+  width: 100%;
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+button {
+  align-self: center;
+  margin-top: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #080710;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+select {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+  font-size: 1.5em;
+  padding: 1em 1.5em;
+  background: #444;
+  color: white;
+}
+
+#displayTree {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: rgb(214, 84, 84);
+  text-decoration: none;
+  font-size: 50px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+text {
+  font-size: 50px;
+}
+
+#folderView {
+  display: flex;
+}
+
+#root {
+  padding-left: 0;
+  list-style: none;
+}
+
+#folderView ul {
+  padding-left: 20px;
+}
+
+#link {
+  color: green;
+}
+
+#name {
+  font-weight: bold;
+}
+
+#movingFolderName {
+  font-style: italic;
+}
+
+/* .folder {
+  font-weight: bold;
+  color: #007bff; /* Folder color */
+}
+
+.file {
+  color: #db3030; /* File color */
+} */
+
+.folderButton {
+  background-color: #007bff;
+  /* box-sizing: border-box; */
+}
+
+.fileButton {
+  background-color: #db303030;
+  /* box-sizing: border-box; */
+}
+/* 
+#folderView button.file {
+  border: 1px solid #28a745; /* File button border color */
+  background-color: white;
+  color: #28a745;
+  margin-right: -5px; /* Set margin-right to 0 */
+  padding: 0; /* Set padding to 0 */
+  /* box-sizing: border-box; */
+}
+
+#folderView button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+#folderView button.file:hover {
+  background-color: #28a745;
+  color: white;
+} */
+
+.hidden {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sandbox</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+   
+  <center>
+   <header>
+      <img src="logo.jpg" alt="logo" width="150" height="150"> 
+      <h2 style="font-size: 50px;">COMMUNITY RESOURCE SHARING PLATFORM</h1>
+  </header>
+  <br><br><br><br>
+   <fieldset>
+  <div style="display: flex; justify-content: space-between; padding-right: 50px;">
+    <div style="flex:1; ">
+      <div style="width: 100px">
+      <input id='parentKey' placeholder="parent folder"></input>
+      <input id='key' placeholder="folder/file name"></input>
+      <input id="data" placeholder="Enter URL" style="margin-right: 10px; margin-bottom: 12;"></input>
+      <select name="type" id="type" style= "margin-top: 12;">
+        <option value="folder">folder</option>
+        <option value="file">file</option>
+      </select>
+      <button id='addNew'>INSERT</button>
+   </div>
+      <div id="folderView">
+         <ul id='root'>
+         </ul>
+      </div>
+   </div>
+
+
+ 
+      
+    <div id='options'>
+      <div style="font-size: 20px;">
+        Selected Folder/File:
+        <text id='name'></text>
+        <a href='' target="_blank" style='visibility: hidden;' rel="noopener" id="link">link</a>
+      </div>
+      <br>
+      <br>
+      <div style="font-size: 20px;">Selected Folder/File to Move:
+        <text id='movingFolderName'></text>
+      </div>
+      <br>
+      <br>
+      <button id='delete'>DELETE</button>
+      <br>
+      <br>
+      <button id='move'>MOVE</button>
+      <br>
+      <br>
+
+    </div>
+  </div>
+</fieldset>
+  <script src="index.js"></script>
+</body>
+</html>
